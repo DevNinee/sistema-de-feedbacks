@@ -4,14 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre - Feedbacks</title>
+    <title>Sobre - Sistema de Feedbacks</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h1>Sobre o Sistema</h1>
-    <p>Este é um sistema simples de coleta de feedbacks de alunos desenvolvido em Node.js com Express.js, armazenando dados em memória.</p>
-    <a href="/">&larr; Voltar para a Home</a>
+<body class="bg-slate-50 flex flex-col items-center justify-center min-h-screen p-4 text-center">
+    <div class="bg-white shadow-xl border border-slate-200 rounded-2xl p-8 max-w-lg">
+        <h1 class="text-3xl font-bold mb-6 text-slate-800">Sobre o Sistema</h1>
+
+        <div class="space-y-4 text-slate-600 leading-relaxed">
+            <p>
+                Este é um sistema acadêmico de coleta de feedbacks, desenvolvido para facilitar a comunicação
+                entre alunos e professores.
+            </p>
+            <p>
+                Construído com tecnologias modernas:
+            </p>
+            <ul class="flex flex-wrap justify-center gap-2 mt-4">
+                <li class="bg-slate-100 px-3 py-1 rounded-full text-sm font-medium">Node.js</li>
+                <li class="bg-slate-100 px-3 py-1 rounded-full text-sm font-medium">Express.js</li>
+                <li class="bg-slate-100 px-3 py-1 rounded-full text-sm font-medium">Tailwind CSS</li>
+                <li class="bg-slate-100 px-3 py-1 rounded-full text-sm font-medium">JavaScript ES6+</li>
+            </ul>
+            <p class="mt-6 text-sm italic text-slate-500">
+                Os dados são armazenados temporariamente em memória.
+            </p>
+        </div>
+
+        <div class="mt-8">
+            <a href="/"
+                class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                Voltar para a Home
+            </a>
+        </div>
+    </div>
 </body>
 
 </html>

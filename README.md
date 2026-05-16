@@ -1,8 +1,8 @@
 
-## Projeto Nodejs com Express desenvolvido para atividade academica. 
+## Projeto Nodejs com Express desenvolvido para atividade acadêmica. 
 ## Desenvolvido por Erick Ferreira.
 
-# Sistema de Coleta de Feedbacks
+# Sistema de Coleta de Feedbacks para Alunos
 
 Este projeto nasceu de uma necessidade acadêmica: criar uma aplicação funcional para captar as percepções dos alunos sobre um curso de forma prática e direta. Ele foi construído utilizando Node.js e o framework Express, servindo como uma porta de entrada para entender como a comunicação entre o navegador e um servidor realmente acontece.
 
@@ -47,7 +47,6 @@ Este projeto seguiu rigorosamente os requisitos solicitados, incluindo:
 
 ## Próximos Passos e Evolução
 
-Embora o projeto cumpra seu papel atual como uma ferramenta de aprendizado em memória, o próximo passo lógico para sua evolução será a implementação de um **banco de dados persistente**  penso em MongoDB ou PostgreSQL. Isso trará o benefício de manter as informações salvas mesmo após o servidor ser reiniciado, permitindo que meu sistema escale e suporte um volume muito maior de dados com total segurança.
-Hospedagem no Render, já pensando na possibilidade de se tornar um projeto a longo prazo.
+Embora o projeto cumpra seu papel atual como uma ferramenta de aprendizado em memória, o próximo passo lógico para sua evolução será a implementação de um **banco de dados persistente** (como MongoDB ou PostgreSQL). Isso trará o benefício de manter as informações salvas mesmo após o servidor ser reiniciado, permitindo que o sistema escale e suporte um volume muito maior de dados com total segurança.
 
-
+Adicionalmente, pretendo realizar a hospedagem no Render, transformando este protótipo em uma aplicação real e acessível.

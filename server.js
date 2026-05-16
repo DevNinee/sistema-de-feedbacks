@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 });
 
+app.get('/sobre', (req, res) => {
+    res.sendFile(__dirname + '/public/sobre.html');
+});
+
 app.post('/feedbacks/enviar', (req, res) => {
     const { nome, comentario } = req.body;
     if (nome && comentario) {
@@ -51,6 +55,7 @@ app.get('/feedbacks/lista', (req, res) => {
                     ${feedbacks.length === 0 ? '<p>Nenhum feedback recebido.</p>' : listaHtml}
                 </div> 
                 <br>
+                <a href="/sobre">Sobre</a> |
                 <a href="/">Voltar para o formulário</a>
             </section>
         </body>
